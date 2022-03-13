@@ -6,28 +6,49 @@ namespace T02._Ascii_Sumator
     {
         static void Main(string[] args)
         {
-            char firstCh = char.Parse(Console.ReadLine());
-            char secondCh = char.Parse(Console.ReadLine());
+            char firstChar = char.Parse(Console.ReadLine());
+            char secondChar = char.Parse(Console.ReadLine());
 
-            string randomString = Console.ReadLine();
+            string text = Console.ReadLine();
 
-            int valueOfBiggerChar = Math.Max(firstCh, secondCh);
+            int biggerCharValue = Math.Max(firstChar, secondChar);
+            int smallerCharValue = Math.Min(firstChar, secondChar);
 
-            char biggerChar;
-            char smallerChar;
+            int sum = 0;
 
-            if (firstCh == valueOfBiggerChar)
+            for (int i = 0; i < text.Length; i++)
             {
-                biggerChar = firstCh;
-                smallerChar = secondCh;
-            }
-            else
-            {
-                biggerChar = secondCh;
-                smallerChar = firstCh;
+                int currentChar = text[i];
+
+                if (currentChar > smallerCharValue && currentChar < biggerCharValue)
+                {
+                    sum += currentChar;
+                }
             }
 
+            Console.WriteLine(sum);
 
+
+            //char firstCh = char.Parse(Console.ReadLine());
+            //char secondCh = char.Parse(Console.ReadLine());
+
+            //string randomString = Console.ReadLine();
+
+            //int valueOfBiggerChar = Math.Max(firstCh, secondCh);
+
+            //char biggerChar;
+            //char smallerChar;
+
+            //if (firstCh == valueOfBiggerChar)
+            //{
+            //    biggerChar = firstCh;
+            //    smallerChar = secondCh;
+            //}
+            //else
+            //{
+            //    biggerChar = secondCh;
+            //    smallerChar = firstCh;
+            //}
         }
     }
 }

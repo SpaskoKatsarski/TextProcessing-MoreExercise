@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T.04 Morse Code Translator", "T.04 Morse Code Translator\T.04 Morse Code Translator.csproj", "{FDBDA6A5-68B5-4E6F-AC04-7A9D58E1369D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T.05-HTML", "T.05-HTML\T.05-HTML.csproj", "{6ED19CCD-C568-4D39-A07B-9F0C1408139F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FDBDA6A5-68B5-4E6F-AC04-7A9D58E1369D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDBDA6A5-68B5-4E6F-AC04-7A9D58E1369D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDBDA6A5-68B5-4E6F-AC04-7A9D58E1369D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED19CCD-C568-4D39-A07B-9F0C1408139F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED19CCD-C568-4D39-A07B-9F0C1408139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED19CCD-C568-4D39-A07B-9F0C1408139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED19CCD-C568-4D39-A07B-9F0C1408139F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
